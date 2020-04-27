@@ -17,7 +17,9 @@ LEARNING_RATE = 1e-3
 DROPOUT_KEEP_PROB = 0.8
 REGULARIZATION_STRENGTH = 0.000
 EDGE_LAMBDA = 1
-CHECKPOINT_DIR = 'trained_model_cleaneval_split'
+#CHECKPOINT_DIR = 'trained_model_cleaneval_split'
+#CHECKPOINT_DIR = '/home/cosmin/work/web2text/src/main/python/trained_model_cleaneval_split' # Original CleanEval split
+CHECKPOINT_DIR = '/home/cosmin/work/web2text/src/main/python/trained_model_web2text_split/' # Web2text custom split
 
 def main():
   if len(sys.argv) < 2:

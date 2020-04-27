@@ -3,14 +3,14 @@
 
 import tensorflow as tf
 from future.utils import iteritems
+import sys
 
 FLAGS = tf.app.flags.FLAGS
-
 
 class Config:
     def __init__(self):
         root = self.Scope('')
-        for k in FLAGS.__dict__['__wrapped']:
+        for k in FLAGS.__dict__['__flags']:
             root[k] = FLAGS.__getattr__(k)
         self.stack = [ root ]
 
