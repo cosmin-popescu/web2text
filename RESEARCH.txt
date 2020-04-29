@@ -1,0 +1,5 @@
+Aggregator websites:
+	nestpick.com
+	housinganywhere.com
+	rentberry.com
+	spotahome.com
